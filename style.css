@@ -39,3 +39,7 @@ h2:hover {
   background: salmon;
   transition: 0.3s ease;
 }
+
+.hidden {
+  display: none;
+}
