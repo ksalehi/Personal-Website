@@ -1,0 +1,41 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+.cover-photo {
+  background: url('images/cover_photo3.png') no-repeat;
+  background-size: 100%;
+  min-height: 700px;;
+}
+
+.header-name {
+  display: inline;
+  font-size: 3vw;
+  color: gray;
+}
+
+.header-title {
+  display: inline;
+  font-size: 3vw;
+  color: darkgray;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 1.5vw;
+  display: inline;
+  padding: 10px;
+  line-height: 40px;
+}
+
+h2:hover {
+  cursor: pointer;
+  background: salmon;
+  transition: 0.3s ease;
+}
