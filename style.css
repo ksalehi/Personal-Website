@@ -5,7 +5,7 @@
 .cover-photo {
   background: url('images/cover_photo3.png') no-repeat;
   background-size: 100%;
-  min-height: 700px;;
+  min-height: 535px;;
 }
 
 .header-name {
@@ -27,6 +27,10 @@ nav {
   margin: 10px;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
 h2 {
   font-size: 1.5vw;
   display: inline;
@@ -43,3 +47,18 @@ h2:hover {
 .hidden {
   display: none;
 }
+
+.about-content {
+  margin: 25px;
+  padding: 25px;
+}
+
+.copyright {
+  float: right;
+}
+/*
+.muenster {
+  background: url('./images/muenster.png');
+  max-height: 400px;
+  float: right;
+}*/
