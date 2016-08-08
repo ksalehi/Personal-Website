@@ -1,11 +1,12 @@
 * {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .cover-photo {
-  background: url('images/cover_photo3.png') no-repeat;
+  background: url('images/cover_photo2.png') no-repeat;
   background-size: 100%;
-  min-height: 535px;;
+  min-height: 515px;
+  border-radius: 2px;
 }
 
 .header-name {
@@ -40,25 +41,42 @@ h2 {
 
 h2:hover {
   cursor: pointer;
-  background: salmon;
-  transition: 0.3s ease;
+  background: #df1c35;
+  transition: 0.2s ease;
+  border-radius: 2px;
+  color: white;
 }
 
 .hidden {
   display: none;
 }
 
-.about-content {
+.about-content,
+.resume-content,
+.projects-content {
   margin: 25px;
   padding: 25px;
 }
 
+.resume-image {
+  width: 80vw;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid black;
+}
+
 .copyright {
+  /*position: absolute;
+  top: 575px;
+  right: 10px;*/
+  margin: 10px;
   float: right;
 }
-/*
+
 .muenster {
   background: url('./images/muenster.png');
   max-height: 400px;
   float: right;
-}*/
+}
