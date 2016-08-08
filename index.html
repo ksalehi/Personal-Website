@@ -42,27 +42,44 @@
     </article>
 
     <article class="projects-content hidden">
-      <p>
-        <ul>
-          <li><a href="http://www.noteworthy.site">Noteworthy</a>
-            <ul>
-              <li>Evernote-inspired note management app</li>
+      <p class="project">
+        <h1><a href="http://www.noteworthy.site">Noteworthy</a></h1>
+        <p><i>An Evernote-inspired note management app</i></p>
+        <div class="divider">
+          <div class="divider-left">
+            <ul class="bullet-points">
+              <li>Employs single-page architecture powered by React Router that minimizes HTTP requests and provides seamless user experience</li>
+              <li>Automatically saves notes to database in response to browser events using Flux listeners and AJAX requests</li>
+              <li>Features clean and intuitive user interface made with hand-rolled HTML5/CSS3</li>
+              <li>Integrates Quill.js library with note creation form to allow rich-text editing of notes</li>
             </ul>
-          </li>
-          <li><a href="https://chrome.google.com/webstore/detail/safescroll/lkkeaiancamiccigdofacokfdjegoanm">SafeScroll</a>
-            <ul>
-              <li>Chrome extension that blocks triggering content for
-                trauma survivors</li>
-            </ul>
-          </li>
-          <li><a href="http://ksalehi.github.io/PianoHero">Piano Hero</a>
-            <ul>
-              <li>Browser game modeled after Guitar Hero</li>
-            </ul>
-          </li>
-        </ul>
-
+          </div>
+          <div class="divider-right">
+            <img src="images/noteworthy_landing.png" class="noteworthy-splash"></img>
+          </div>
+        </div>
+        <img src="images/noteworthy_home.png" class="noteworthy-landing"></img>
       </p>
+      <br>
+      <p class="project">
+        <h1><a href="https://chrome.google.com/webstore/detail/safescroll/lkkeaiancamiccigdofacokfdjegoanm">SafeScroll</a></h1>
+        <div class="divider">
+          <div class="divider-left">
+            <p><i>A Chrome extension that blocks triggering content for
+              trauma survivors</i></p>
+            <ul class="bullet-points">
+              <li>Scans web pages for text nodes with target content and manipulates DOM tree to insert removable screen over matching nodes using jQuery</li>
+              <li>Saves custom user-defined categories across browser sessions through interface with Chrome Storage API</li>
+            </ul>
+          </div>
+          <div class="divider-right">
+            <img src="images/settings.png" class="noteworthy-splash"></img>
+          </div>
+        </div>
+        <img src="images/trump.png" class="noteworthy-landing"></img>
+      </p>
+
+
     </article>
     <article class="contact-content hidden">
       <p>

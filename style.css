@@ -53,9 +53,10 @@ h2:hover {
 
 .about-content,
 .resume-content,
-.projects-content {
-  margin: 25px;
-  padding: 25px;
+.projects-content,
+.contact-content {
+  margin: 25px 50px;
+  padding: 25px 50px;
 }
 
 .resume-image {
@@ -79,4 +80,62 @@ h2:hover {
   background: url('./images/muenster.png');
   max-height: 400px;
   float: right;
+}
+
+.noteworthy-splash {
+  float: right;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+
+.noteworthy-landing {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-top: 15px;
+}
+
+.clearfix {
+  content: '';
+  display: block;
+  clear: both;
+  overflow: auto;
+}
+
+.divider-left {
+  width: 45%;
+}
+
+.divider-right {
+  width: 55%;
+}
+
+.bullet-points {
+  float: left;
+  margin-right: 25px;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  line-height: 20px;
+  font-size: 20px;
+}
+
+.project {
+  background: lightgray;
+  border-radius: 5px;
+  margin: 15px;
 }

@@ -1,5 +1,3 @@
-
-
 $(document).ready( () => {
 
   const aboutContent = $('.about-content');
