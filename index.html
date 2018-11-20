@@ -24,29 +24,32 @@
       </div>
     </nav>
     <article class="about-content hidden">
-      <p>
-        I'm a software engineer out of the Bay Area with experience designing
-        and building full-stack web applications using JavaScript, Ruby and
-        React.js. My background is in neuroscience and pure math. When
-        I'm not coding, I can be found trail running around Berkeley,
-        playing board games with friends, or serving as a pillow for my cat,
-        Muenster.
-      </p>
-      <div class="muenster">
-
-        <img src="images/muenster.png" class="muenster"></img>
+      <div class="divider background">
+        <div class="about-me">
+          <p>ABOUT ME</p>
+          <br>
+          <p>I'm a software engineer out of the Bay Area with experience designing
+          and building full-stack web applications using JavaScript, React, PHP,
+          Ruby/Rails and StackOverflow :) My background is in neuroscience and pure 
+          math. When I'm not coding, I can be found doing improv comedy in the
+          Mission, playing board games with friends, or serving as a pillow for my
+          cat, Ziggy.</p>
+        </div>
+        <div class="ziggy">
+          <img src="images/ziggy.jpg" class="ziggy"></img>
+        </div>
       </div>
     </article>
     <article class="resume-content hidden">
-      <img src="images/PersonalWebsite-Resume-KiaSalehi.png" class="resume-image"></img>
+      <img src="images/PersonalWebsite-Resume-KiaSalehi.jpg" class="resume-image"></img>
     </article>
 
-    <article class="projects-content hidden">
-      <p class="project">
+    <section class="projects-content hidden">
+      <article class="project">
         <h1><a href="http://www.noteworthy.site">Noteworthy</a></h1>
-        <p><i>An Evernote-inspired note management app</i></p>
         <div class="divider">
           <div class="divider-left">
+            <p><i>An Evernote-inspired note management app</i></p>
             <ul class="bullet-points">
               <li>Employs single-page architecture powered by React Router that minimizes HTTP requests and provides seamless user experience</li>
               <li>Automatically saves notes to database in response to browser events using Flux listeners and AJAX requests</li>
@@ -56,12 +59,13 @@
           </div>
           <div class="divider-right">
             <img src="images/noteworthy_landing.png" class="noteworthy-splash"></img>
+            <img src="images/noteworthy_example.png" class="noteworthy-splash"></img>
           </div>
         </div>
         <img src="images/noteworthy_home.png" class="noteworthy-landing"></img>
-      </p>
+      </article>
       <br>
-      <p class="project">
+      <article class="project">
         <h1><a href="https://chrome.google.com/webstore/detail/safescroll/lkkeaiancamiccigdofacokfdjegoanm">SafeScroll</a></h1>
         <div class="divider">
           <div class="divider-left">
@@ -77,19 +81,35 @@
           </div>
         </div>
         <img src="images/trump.png" class="noteworthy-landing"></img>
-      </p>
-
-
-    </article>
+      </article>
+      <br>
+      <article class="project">
+        <h1><a href="http://ksalehi.github.io/PianoHero">Piano Hero</a></h1>
+        <div class="divider">
+          <div class="divider-left">
+            <p><i>A browser game modeled after Guitar Hero</i></p>
+            <ul class="bullet-points">
+              <li>Renders keyboard visuals to Canvas dynamically in response to user input via jQuery event handlers</li>
+              <li>Integrates Web Audio API to synthesize sounds on key press</li>
+              </ul>
+          </div>
+          <div class="divider-right">
+            <img src="images/piano_hero.png" class="noteworthy-splash"></img>
+          </div>
+        </div>
+      </article>
+    </section>
     <article class="contact-content hidden">
       <p>
-        ksalehi@wellesley.edu
-        (540) 293-6483
+        <p>ksalehi@wellesley.edu</p>
+        <p>(540) 293-6483</p>
+        <p><a href="http://www.github.com/ksalehi">www.github.com/ksalehi</a></p>
+        <p><a href="http://www.linkedin.com/in/kiasalehi">www.linkedin.com/in/kiasalehi</a></p>
       </p>
     </article>
     <div>
       <div class="cover-photo"></div>
-      <span class="copyright">&copy Kia Salehi 2016</span>
+      <span class="copyright">&copy Kia Salehi 2018</span>
     </div>
 
     <link rel="stylesheet" href="style.css">

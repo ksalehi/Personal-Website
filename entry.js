@@ -6,13 +6,15 @@ $(document).ready( () => {
   const contact = $('.contact-content');
   const navHeader = $('.nav-header');
   const coverPhoto = $('.cover-photo');
+  const copyright = $('.copyright');
 
   this.elements = [
     aboutContent,
     resume,
     projects,
     contact,
-    coverPhoto
+    coverPhoto,
+    copyright
   ];
 
   $('.about').on('click', () => {
@@ -35,18 +37,9 @@ $(document).ready( () => {
     hideAllExcept(coverPhoto);
     coverPhoto.removeClass('hidden');
     navHeader.removeClass('clickable');
+    copyright.removeClass('hidden');
     });
 });
-
-function hideCoverPhoto() {
-  $('.cover-photo').addClass('hidden');
-}
-
-function showCoverPhoto() {
-  const coverPhoto = $('.cover-photo');
-  coverPhoto.removeClass('hidden');
-  hideAllExcept(coverPhoto);
-}
 
 function hideAllExcept(showEl) {
   this.elements.forEach( (element, idx) => {
