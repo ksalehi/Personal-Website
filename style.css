@@ -3,9 +3,9 @@
 }
 
 .cover-photo {
-  background: url('images/cover_photo2.png') no-repeat;
+  background: url('images/cover_photo2.jpg') center center no-repeat;
   background-size: 100%;
-  min-height: 515px;
+  min-height: 550px;
 }
 
 .header-name {
@@ -18,7 +18,6 @@
   display: inline;
   font-size: 3vw;
   color: #9b9b9b;
-  /*padding: 10px;*/
 }
 
 nav {
@@ -58,7 +57,7 @@ body {
 .resume-content,
 .projects-content,
 .contact-content {
-  margin: 25px 50px;
+  margin: 25px 75px;
   padding: 25px 50px;
 }
 
@@ -82,6 +81,7 @@ body {
   float: right;
   border-radius: 2px;
   margin-right: 15px;
+  margin-left: 20px;
 }
 
 .noteworthy-splash {
@@ -140,8 +140,7 @@ h1 {
 .project {
   background: rgba(235, 235, 235, 1);
   border-radius: 2px;
-  margin: 15px;
-  padding: 25px;
+  padding: 45px;
 }
 
 p {
